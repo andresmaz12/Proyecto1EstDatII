@@ -7,7 +7,9 @@ using System.Windows;
 
 class Program
 {
-    ManejoProfesiones profesiones = new ManejoProfesiones();
+    ArbolB arbol = new ArbolB(3); // Orden del árbol B
+    List<Proveedor> listaLineal = new List<Proveedor>();
+
     public static void Main(string[] args)
     {
         Menu();
@@ -16,42 +18,70 @@ class Program
     {
         while (true)
         {
-            Console.WriteLine("\n Menú \n");
-            Console.WriteLine("1.)");
-            Console.WriteLine("2.)");
-            Console.WriteLine("3.)");
-            Console.WriteLine("4.)");
-            Console.Write("Que desea hacer: ");
+            Console.WriteLine("\n == Menu Principal de UBER == ");
+            Console.WriteLine("Eliga la opcion que desea realizar");
+            Console.WriteLine("1. Registrar proveedor");
+            Console.WriteLine("2. Buscar por servicio");
+            Console.WriteLine("3. Mostrar proveedores ordenados");
+            Console.WriteLine("4. Comparar búsqueda lineal vs. Árbol B");
+            Console.WriteLine("5. Salir");
+            Console.Write("Opción: ");
             string opcion = Console.ReadLine();
-            ManejoMEnu(opcion);
 
-        }
-    }
-    public static void ManejoMEnu(string opcion)
-    {
+            if (opcion == "1")
+            {
+                Proveedor p = new Proveedor();
+                Console.Write("ID: ");
+                p.ID = int.Parse(Console.ReadLine());
+                Console.Write("Nombre: ");
+                p.Nombre = Console.ReadLine();
+                Console.Write("Servicio: ");
+                p.Servicio = Console.ReadLine();
+                Console.Write("Calificación (1-5): ");
+                p.Calificacion = int.Parse(Console.ReadLine());
 
-        switch (opcion)
-        {
-            case "1":
-                RegistroProfesional();
+                arbol.Insertar(p);
+                listaLineal.Add(p);
+            }
+            else if (opcion == "2")
+            {
+                Console.Write("Servicio a buscar: ");
+                string servicio = Console.ReadLine();
+                var encontrados = arbol.BuscarPorServicio(servicio);
+                if (encontrados.Count > 0)
+                {
+                    foreach (var prov in encontrados)
+                        Console.WriteLine(prov);
+                }
+                else
+                {
+                    Console.WriteLine("No se encontraron proveedores.");
+                }
+            }
+            else if (opcion == "3")
+            {
+                arbol.MostrarOrdenado();
+            }
+            else if (opcion == "4")
+            {
+                Console.Write("Servicio a buscar: ");
+                string servicio = Console.ReadLine();
+
+                var inicioLineal = DateTime.Now;
+                var resLineal = listaLineal.FindAll(p => p.Servicio.Equals(servicio, StringComparison.OrdinalIgnoreCase));
+                var tiempoLineal = (DateTime.Now - inicioLineal).TotalMilliseconds;
+
+                var inicioB = DateTime.Now;
+                var resB = arbol.BuscarPorServicio(servicio);
+                var tiempoB = (DateTime.Now - inicioB).TotalMilliseconds;
+
+                Console.WriteLine($"Lineal: {resLineal.Count} resultados en {tiempoLineal} ms");
+                Console.WriteLine($"Árbol B: {resB.Count} resultados en {tiempoB} ms");
+            }
+            else if (opcion == "5")
+            {
                 break;
-            case "2":
-                break;
-            case "3":
-                break;
-            case "4":
-                Console.WriteLine("Gracias por usar el programa!!!");
-                Console.WriteLine("Proyecto realizado por:");
-                Console.WriteLine("");
-                return;
-            default:
-                break;
+            }
         }
-    }
-    public static void RegistroProfesional()
-    {
-        Console.WriteLine("\n Registro de Profesionales");
-        Console.Write("Que desea hacer: ");
-        string Nombre = Console.ReadLine();
     }
 }
