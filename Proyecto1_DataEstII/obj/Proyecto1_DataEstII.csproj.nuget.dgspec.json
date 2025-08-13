@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProyectosVS\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj": {}
+    "D:\\ProyectosGitHub\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj": {}
   },
   "projects": {
-    "D:\\ProyectosVS\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj": {
+    "D:\\ProyectosGitHub\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectosVS\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj",
+        "projectUniqueName": "D:\\ProyectosGitHub\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj",
         "projectName": "Proyecto1_DataEstII",
-        "projectPath": "D:\\ProyectosVS\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj",
+        "projectPath": "D:\\ProyectosGitHub\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj",
         "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectosVS\\Proyecto1_DataEstII\\obj\\",
+        "outputPath": "D:\\ProyectosGitHub\\Proyecto1EstDatII\\Proyecto1_DataEstII\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config"
