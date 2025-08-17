@@ -1,0 +1,5 @@
+C:\Users\rodse\OneDrive\Escritorio\Progra u\Proyecto1EstDatII\Proyecto1_DataEstII\obj\Debug\net9.0\Proyecto1_DataEstII.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodse\OneDrive\Escritorio\Progra u\Proyecto1EstDatII\Proyecto1_DataEstII\obj\Debug\net9.0\Proyecto1_DataEstII.AssemblyInfoInputs.cache
+C:\Users\rodse\OneDrive\Escritorio\Progra u\Proyecto1EstDatII\Proyecto1_DataEstII\obj\Debug\net9.0\Proyecto1_DataEstII.AssemblyInfo.cs
+C:\Users\rodse\OneDrive\Escritorio\Progra u\Proyecto1EstDatII\Proyecto1_DataEstII\obj\Debug\net9.0\Proyecto1_DataEstII.csproj.CoreCompileInputs.cache
+C:\Users\rodse\OneDrive\Escritorio\Progra u\Proyecto1EstDatII\Proyecto1_DataEstII\obj\Debug\net9.0\Proyecto1_DataEstII.sourcelink.json
