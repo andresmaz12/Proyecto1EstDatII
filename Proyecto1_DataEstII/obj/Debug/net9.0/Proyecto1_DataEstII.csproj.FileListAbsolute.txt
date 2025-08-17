@@ -1,0 +1,15 @@
+D:\ProyectosGitHub\Proyecto1EstDatII\Proyecto1_DataEstII\bin\Debug\net9.0\Proyecto1_DataEstII.exe
+D:\ProyectosGitHub\Proyecto1EstDatII\Proyecto1_DataEstII\bin\Debug\net9.0\Proyecto1_DataEstII.deps.json
+D:\ProyectosGitHub\Proyecto1EstDatII\Proyecto1_DataEstII\bin\Debug\net9.0\Proyecto1_DataEstII.runtimeconfig.json
+D:\ProyectosGitHub\Proyecto1EstDatII\Proyecto1_DataEstII\bin\Debug\net9.0\Proyecto1_DataEstII.dll
+D:\ProyectosGitHub\Proyecto1EstDatII\Proyecto1_DataEstII\bin\Debug\net9.0\Proyecto1_DataEstII.pdb
+D:\ProyectosGitHub\Proyecto1EstDatII\Proyecto1_DataEstII\obj\Debug\net9.0\Proyecto1_DataEstII.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectosGitHub\Proyecto1EstDatII\Proyecto1_DataEstII\obj\Debug\net9.0\Proyecto1_DataEstII.AssemblyInfoInputs.cache
+D:\ProyectosGitHub\Proyecto1EstDatII\Proyecto1_DataEstII\obj\Debug\net9.0\Proyecto1_DataEstII.AssemblyInfo.cs
+D:\ProyectosGitHub\Proyecto1EstDatII\Proyecto1_DataEstII\obj\Debug\net9.0\Proyecto1_DataEstII.csproj.CoreCompileInputs.cache
+D:\ProyectosGitHub\Proyecto1EstDatII\Proyecto1_DataEstII\obj\Debug\net9.0\Proyecto1_DataEstII.sourcelink.json
+D:\ProyectosGitHub\Proyecto1EstDatII\Proyecto1_DataEstII\obj\Debug\net9.0\Proyecto1_DataEstII.dll
+D:\ProyectosGitHub\Proyecto1EstDatII\Proyecto1_DataEstII\obj\Debug\net9.0\refint\Proyecto1_DataEstII.dll
+D:\ProyectosGitHub\Proyecto1EstDatII\Proyecto1_DataEstII\obj\Debug\net9.0\Proyecto1_DataEstII.pdb
+D:\ProyectosGitHub\Proyecto1EstDatII\Proyecto1_DataEstII\obj\Debug\net9.0\Proyecto1_DataEstII.genruntimeconfig.cache
+D:\ProyectosGitHub\Proyecto1EstDatII\Proyecto1_DataEstII\obj\Debug\net9.0\ref\Proyecto1_DataEstII.dll
