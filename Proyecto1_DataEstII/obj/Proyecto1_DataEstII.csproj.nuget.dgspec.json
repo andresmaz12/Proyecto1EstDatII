@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProyectosGitHub\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj": {}
+    "C:\\Users\\rodse\\OneDrive\\Escritorio\\Progra u\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj": {}
   },
   "projects": {
-    "D:\\ProyectosGitHub\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj": {
+    "C:\\Users\\rodse\\OneDrive\\Escritorio\\Progra u\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectosGitHub\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj",
+        "projectUniqueName": "C:\\Users\\rodse\\OneDrive\\Escritorio\\Progra u\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj",
         "projectName": "Proyecto1_DataEstII",
-        "projectPath": "D:\\ProyectosGitHub\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj",
-        "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectosGitHub\\Proyecto1EstDatII\\Proyecto1_DataEstII\\obj\\",
+        "projectPath": "C:\\Users\\rodse\\OneDrive\\Escritorio\\Progra u\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj",
+        "packagesPath": "C:\\Users\\rodse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodse\\OneDrive\\Escritorio\\Progra u\\Proyecto1EstDatII\\Proyecto1_DataEstII\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\rodse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

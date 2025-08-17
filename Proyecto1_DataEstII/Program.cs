@@ -26,6 +26,14 @@ class Program
             Console.WriteLine("4. Comparar búsqueda lineal vs. Árbol B");
             Console.WriteLine("5. Salir");
             Console.Write("Opción: ");
+            Console.WriteLine("\n == Menu Principal de UBER == ");
+            Console.WriteLine("Eliga la opcion que desea realizar");
+            Console.WriteLine("1. Registrar proveedor");
+            Console.WriteLine("2. Buscar por servicio");
+            Console.WriteLine("3. Mostrar proveedores ordenados");
+            Console.WriteLine("4. Comparar búsqueda lineal vs. Árbol B");
+            Console.WriteLine("5. Salir");
+            Console.Write("Opción: ");
             string opcion = Console.ReadLine();
             ManejoMEnu(opcion);
 
