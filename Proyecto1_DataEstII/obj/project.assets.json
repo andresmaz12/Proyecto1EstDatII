@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rodse\\OneDrive\\Escritorio\\Progra u\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj",
+      "projectUniqueName": "C:\\Users\\rodse\\Documents\\Repositorios (tareas)\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj",
       "projectName": "Proyecto1_DataEstII",
-      "projectPath": "C:\\Users\\rodse\\OneDrive\\Escritorio\\Progra u\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj",
+      "projectPath": "C:\\Users\\rodse\\Documents\\Repositorios (tareas)\\Proyecto1EstDatII\\Proyecto1_DataEstII\\Proyecto1_DataEstII.csproj",
       "packagesPath": "C:\\Users\\rodse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rodse\\OneDrive\\Escritorio\\Progra u\\Proyecto1EstDatII\\Proyecto1_DataEstII\\obj\\",
+      "outputPath": "C:\\Users\\rodse\\Documents\\Repositorios (tareas)\\Proyecto1EstDatII\\Proyecto1_DataEstII\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

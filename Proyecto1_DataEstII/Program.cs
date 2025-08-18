@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using System.Windows;
 
 class Program
+
+
 {
     static BTree arbol = new BTree(3); // Orden del árbol B
     static List<Proveedor> listaLineal = new List<Proveedor>();
