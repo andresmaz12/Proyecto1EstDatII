@@ -167,17 +167,17 @@ class BTree
 
     private void MostrarOrdenadoRec(NodoB nodo)
     {
-        for (int i = 0; i < nodo.Claves.Count; i++)
+        for (int i = 0; i < nodo.Datos.Count; i++)
         {
             if (!nodo.EsHoja)
             {
                 MostrarOrdenadoRec(nodo.Hijos[i]);
             }
-            Console.WriteLine(nodo.Claves[i]);
+            Console.WriteLine(nodo.Datos[i]);
         }
         if (!nodo.EsHoja)
         {
-            MostrarOrdenadoRec(nodo.Hijos[nodo.Claves.Count]);
+            MostrarOrdenadoRec(nodo.Hijos[nodo.Datos.Count]);
         }
     }
 
