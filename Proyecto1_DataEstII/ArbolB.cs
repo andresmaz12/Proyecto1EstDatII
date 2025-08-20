@@ -176,7 +176,14 @@ class BTree
             {
                 MostrarOrdenadoRec(nodo.Hijos[i]);
             }
+<<<<<<< Updated upstream
             Console.WriteLine(nodo.Datos[i]);
+=======
+            Console.WriteLine("==================");
+            Console.WriteLine(nodo.Datos[i]);
+            Console.WriteLine("==================");
+            Console.WriteLine();
+>>>>>>> Stashed changes
         }
         if (!nodo.EsHoja)
         {
