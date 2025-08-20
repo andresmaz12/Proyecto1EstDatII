@@ -61,7 +61,9 @@ class Program
             case "5":
                 Console.WriteLine("Gracias por usar el programa!!!");
                 Console.WriteLine("Proyecto realizado por:");
-                Console.WriteLine("");
+                Console.WriteLine("Andrés Alejandro Mazariegos López - 1535724");
+                Console.WriteLine("Mario André Velazco Gonzales - 1546124");
+                Console.WriteLine("Edgar Eduardo Rodas López - 1629924");
                 return;
             default:
                 break;
